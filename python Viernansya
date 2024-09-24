@@ -1,0 +1,19 @@
+# Definisi kelas Mahasiswi
+class Mahasiswi:
+    # Konstruktor kelas untuk inisialisasi objek
+    def __init__(self, nama, nim, jurusan):
+        self.nama = nama
+        self.nim = nim
+        self.jurusan = jurusan
+
+    # Metode untuk menampilkan aktivitas membaca
+    def membaca(self):
+        print(f"{self.nama} sedang membaca.")
+
+# Implementasi penggunaan kelas Mahasiswi
+mahasiswi1 = Mahasiswi("ica", "051012", "Informatika")
+mahasiswi2 = Mahasiswi("Anna", "0710041", "Sistem Informasi")
+
+# Menggunakan metode objek
+mahasiswi1.membaca()  # Output: ica sedang membaca.
+mahasiswi2.membaca()  # Output: Anna sedang membaca.
